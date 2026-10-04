@@ -1,0 +1,6 @@
+Modelo,Hiperparámetros Óptimos,Train F1-Macro,Val F1-Macro (IC 95%),Test F1-Macro,Test Accuracy
+Logistic Regression,"{'C': 1.0, 'solver': 'saga'}",0.8192,0.8166 ± 0.0050,0.8157,0.9154
+k-Nearest Neighbors,"{'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'distance'}",1.0,0.7417 ± 0.0118,0.7354,0.9204
+Random Forest,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 200}",0.9978,0.8622 ± 0.0085,0.8668,0.9531
+MLP Neural Network,"{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (64, 32)}",0.9975,0.8179 ± 0.0068,0.8194,0.936
+Support Vector Machine,"{'C': 10.0, 'gamma': 'scale', 'kernel': 'rbf'}",0.9848,0.8247 ± 0.0067,0.8267,0.9378

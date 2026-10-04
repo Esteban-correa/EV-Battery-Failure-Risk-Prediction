@@ -1,0 +1,5 @@
+Técnica Reducción,Modelo,Componentes,% Reducción,Test F1-Macro,Test Accuracy
+PCA (Lineal),Random Forest,30,34.8%,0.8105,0.9332
+PCA (Lineal),SVM,30,34.8%,0.7938,0.9239
+UMAP (No Lineal),Random Forest,5,89.1%,0.6203,0.8909
+UMAP (No Lineal),SVM,5,89.1%,0.3987,0.613
